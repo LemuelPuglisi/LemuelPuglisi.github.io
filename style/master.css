@@ -1,19 +1,72 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow: hidden;
-  background-color: #232323;
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
 
-body{
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+body {
+  background-color: #051012;
+  font-family: 'Lato', sans-serif !important;
   color: white;
-  font-family: 'Raleway', sans-serif;
 }
 
-.coming {
+.content {
+  position: relative;
   text-align: center;
-  margin-top: 150px;
+  color: white;
+}
+
+.centered-t {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered-s {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+.navbar {
+  background-color: #5B888D;
+}
+
+ .title {
+   font-size: 45px;
+   font-weight: 300;
+ }
+
+.subtitle{
+  font-size: 32px;
+  font-weight: 220;
+}
+
+hr {
+  background-color: #5B888D;
+}
+
+footer {
+  font-size: 14px;
+  text-align: right;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-right: 5px;
 }
