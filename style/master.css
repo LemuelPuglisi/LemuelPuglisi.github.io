@@ -30,11 +30,19 @@ body {
 }
 
 .container-fluid {
-    padding-right:0;
-    padding-left:0;
+
     margin-right:auto;
     margin-left:auto
  }
+
+ .centerBlock {
+   display: table;
+   margin: auto;
+ }
+.profile {
+  width: 300px;
+  height: 400px;
+}
 
 .wrapper {
   text-align: center;
