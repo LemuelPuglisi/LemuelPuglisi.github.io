@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 html {
     overflow: scroll;
@@ -14,28 +14,19 @@ html {
 }
 
 body {
-  background-color: #051012;
-  font-family: 'Lato', sans-serif !important;
-  color: white;
+  background-color: #F1F1F1;
+  font-family: 'Roboto Slab', serif !important;
+  color: black;
 }
 
-.content {
-  position: relative;
-  text-align: center;
-  color: white;
+.title {
+  font-size: 45px;
+  font-weight: 300;
 }
 
-.centered-t {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.centered-s {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.subtitle{
+ font-size: 32px;
+ font-weight: 220;
 }
 
 .container-fluid {
@@ -45,22 +36,37 @@ body {
     margin-left:auto
  }
 
-.navbar {
-  background-color: #5B888D;
+.wrapper {
+  text-align: center;
 }
 
- .title {
-   font-size: 45px;
-   font-weight: 300;
- }
+.navbar {
+  background-color: #F1F1F1;
+}
 
-.subtitle{
-  font-size: 32px;
-  font-weight: 220;
+.siteBtn {
+  width: 100px !important;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 450;
+}
+
+.centered {
+  position: relative;
+  top: 30vh;
+}
+
+.bgImage {
+  position: relative;
+  height: 100vh;
+  width:  100%;
+  text-align: center;
 }
 
 hr {
-  background-color: #5B888D;
+  background-color: #232323;
+  width: 40vw;
+  text-align: center;
 }
 
 footer {
