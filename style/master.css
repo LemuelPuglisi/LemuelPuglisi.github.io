@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 html {
     overflow: scroll;
     overflow-x: hidden;
@@ -15,7 +15,7 @@ html {
 
 body {
   background-color: #F1F1F1;
-  font-family: 'Roboto Slab', serif !important;
+  font-family: 'Montserrat', sans-serif;
   color: black;
 }
 
