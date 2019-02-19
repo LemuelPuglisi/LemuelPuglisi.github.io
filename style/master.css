@@ -3,6 +3,7 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -29,6 +30,13 @@ body {
  font-weight: 220;
 }
 
+.section-subtitle {
+  font-size: 32px;
+  font-weight: 220;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
 .container-fluid {
 
     margin-right:auto;
@@ -39,17 +47,19 @@ body {
    display: table;
    margin: auto;
  }
+
 .profile {
   width: 300px;
   height: 400px;
 }
 
-.wrapper {
-  text-align: center;
-}
-
 .navbar {
   background-color: #F1F1F1;
+}
+
+.nav-centre {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .siteBtn {
@@ -71,16 +81,53 @@ body {
   text-align: center;
 }
 
+.section {
+  /* height: 100vh; */
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.spacer {
+  padding: 40px;
+}
+
 hr {
   background-color: #232323;
   width: 40vw;
   text-align: center;
 }
 
-footer {
+a {
+  background-color: #F1F1F1;
+  color: #232323;
+  padding: 0.5em 1.0em;
+  text-decoration: none;
+  border: 1px solid #232323;
+  border-color: #232323;
+  border-radius: 5px;
+  font-weight: 400;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+a:hover {
+  background-color: #232323;
+  text-decoration: none;
+  color: #F1F1F1;
+  cursor: pointer;
+}
+
+a:active {
+  background-color: #F1F1F1;
+}
+
+.footer {
+  text-align: center;
   font-size: 14px;
-  text-align: right;
-  padding-top: 40px;
-  padding-bottom: 10px;
-  padding-right: 5px;
+  color: #F1F1F1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #232323;
 }
