@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style/master.css">
+    <link rel="stylesheet" href="style/imagehover.min.css">
     <title>LemuelPuglisi</title>
   </head>
   <body>
@@ -22,9 +23,9 @@
 
       <nav class="navbar sticky-top justify-content-center">
         <div class="nav-centre">
-          <a class="btn-link" href="#mepte">mepte</a>
-          <a class="btn-link" href="#projects">projects</a>
-          <a class="btn-link" href="#studium">studium</a>
+          <a class="btn-link hvr-shutter-in-horizontal" href="#mepte">mepte</a>
+          <a class="btn-link hvr-shutter-in-horizontal" href="#projects">projects</a>
+          <a class="btn-link hvr-shutter-in-horizontal" href="#studium">studium</a>
         </div>
       </nav>
 
@@ -50,7 +51,15 @@
           </div>
           <div class="col-md-5 col-sm-12 col-xs-12">
             <div class="centerBlock">
-              <img src="img/image.jpg" class="profile ">
+              <figure class="imghvr-zoom-out-flip-horiz" style="background-color:#232323 !important;">
+                <img src="img/image.jpg" class="profile">
+                <figcaption style="background-color:#F1F1F1 !important; color: #232323;">
+                  <br>
+                    <p style="text-align: center"> check my socials: </p>
+                    <!-- da mettere -->
+                  </br>
+                </figcaption>
+              </figure>
             </div>
           </div>
           <div class="col-md-7 col-sm-12 col-xs-12 justify-content-center">
@@ -78,7 +87,7 @@
 
           <!-- mzcloud -->
           <div class="col-sm-12">
-            <div class="card mb-3">
+            <div class="card mb-3 hvr-overline-from-center ">
               <div class="row no-gutters">
                 <div class="col-md-4">
                   <img src="img/mzcloud.jpg" class="card-img icon-project rounded-circle centerBlock" alt="mzcloud" onclick="window.location.href='https://mzcloud.altervista.org'">
@@ -103,7 +112,7 @@
 
           <!-- gob platform -->
           <div class="col-sm-12">
-            <div class="card mb-3">
+            <div class="card mb-3 hvr-overline-from-center">
               <div class="row no-gutters">
                 <div class="col-md-4">
                   <img src="img/gob.png" class="card-img icon-project rounded-circle centerBlock" alt="mzcloud"onclick="window.location.href='http://godofbench.altervista.org'">
@@ -125,7 +134,7 @@
 
           <!-- old site -->
           <div class="col-sm-12">
-            <div class="card mb-3">
+            <div class="card mb-3 hvr-overline-from-center">
               <div class="row no-gutters">
                 <div class="col-md-4">
                   <img src="img/oldsite.png" class="card-img icon-project rounded-circle centerBlock" alt="mzcloud"onclick="window.location.href='http://lemueldev.herokuapp.com/'">
@@ -161,7 +170,20 @@
         </div>
         <!-- /studium -->
 
-        <div class="footer">lemuelpuglisi001@gmail.com</div>
+        <div class="footer">
+          <div class="row" style="font-size: 14px;">
+            <div class="col-sm-6">
+              <button type="button" class="btn btn-outline-light hvr-overline-from-center" style="width:70px !important"><i class="fab fa-instagram"></i></button>
+              <button type="button" class="btn btn-outline-light hvr-overline-from-center" style="width:70px !important"><i class="fab fa-github"></i></button>
+              <button type="button" class="btn btn-outline-light hvr-overline-from-center" style="width:70px !important"><i class="fab fa-facebook-f"></i></button>
+            </div>
+            <div class="col-sm-6">
+              <i class="fas fa-envelope"></i> lemuelpuglisi001@gmail.com
+            </div>
+          </div>
+
+
+        </div>
 
     </div>
 
