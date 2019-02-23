@@ -81,6 +81,24 @@ body {
   text-align: center;
 }
 
+.icon-project {
+  width: 200px;
+  height: 200px;
+  border: 0.5px solid #232323;
+  border-color: #232323;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.project-content {
+  border: 1.5px solid #232323;
+  border-color: #232323;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
 .section {
   /* height: 100vh; */
   padding-top: 20px;
