@@ -115,7 +115,7 @@ hr {
   text-align: center;
 }
 
-a {
+.btn-link {
   background-color: #F1F1F1;
   color: #232323;
   padding: 0.5em 1.0em;
@@ -130,14 +130,14 @@ a {
   -webkit-transition:.5s;
   transition:.5s;
 }
-a:hover {
+.btn-link:hover {
   background-color: #232323;
   text-decoration: none;
   color: #F1F1F1;
   cursor: pointer;
 }
 
-a:active {
+.btn-link:active {
   background-color: #F1F1F1;
 }
 
