@@ -91,10 +91,7 @@ body {
 }
 
 .icon-project {
-  width: 200px;
-  height: 200px;
-  border: 0.5px solid #232323;
-  border-color: #232323;
+  border: 0.5px solid transparent;
   margin-top: 20px;
   margin-bottom: 20px;
   cursor: pointer;
@@ -125,14 +122,20 @@ hr {
 }
 
 .btn-link {
+  width: 100px;
+  text-align: center;
   background-color: #F1F1F1;
   color: #232323;
   padding: 0.5em 1.0em;
-  text-decoration: none;
   border: 1px solid #B68C70;
   border-color: #B68C70;
   border-radius: 0px;
   font-weight: 400;
+}
+
+.btn-link:hover, .btn-link:visited, .btn-link:link, .btn-link:active
+{
+    text-decoration: none;
 }
 
 .btn-link:active {
