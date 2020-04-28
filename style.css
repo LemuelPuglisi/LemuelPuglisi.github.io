@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+html {
+    background-color: #efefef;
+    font-family: 'Manrope', sans-serif;
+}
+
+a { text-decoration: none; }
+
+hr {
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.container {
+    padding:    30px;
+    max-width:  500px;
+    max-height: 500px;
+}
+
+.center {
+    text-align: center;
+    position:   absolute;
+	top:        0;
+	bottom:     0;
+	left:       0;
+	right:      0;
+	margin:     auto;
+}
+
+.container .fullname h1 {
+
+    color: #212121; 
+    font-weight: lighter;
+}
+
+.container .infos {
+    color: #212121; 
+}
