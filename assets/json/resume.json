@@ -1,61 +1,106 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Lemuel Puglisi",
+    "label": "PhD Student, Research Imaging Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "lemuel.puglisi@phd.unict.it",
+    "phone": "",
+    "url": "https://lemuelpuglisi.github.io",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Via S. Sofia, 64",
+      "postalCode": "CT 95045",
+      "city": "Catania",
+      "countryCode": "CT",
+      "region": "Sicily, Italy"
     },
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
+      "name": "Queen Square Analytics",
+      "position": "Imaging Research Scientist",
+      "url": "queensquareanalytics.com",
+      "startDate": "2023.03",
+      "endDate": "",
+      "summary": "Machine learning assisted clinical trials in neurodegenerative diseases.",
+      "highlights": []
+    }, 
+
+    {
+      "name": "Queen Square Analytics",
+      "position": "Research intern",
+      "url": "queensquareanalytics.com",
+      "startDate": "2022.09",
+      "endDate": "2023.03",
+      "summary": "Deep Learning-based automatic quality assessment and artifact detection on MRI data.",
+      "highlights": []
+    }, 
+
+    {
+      "name": "University of Catania",
+      "position": "Tutor of Computer Science",
+      "url": "unict.it",
+      "startDate": "2022.03",
+      "endDate": "2022.09",
+      "summary": "Providing tutorship to students from the following courses: Technologies for Advanced Programming, Introduction to Data Mining",
+      "highlights": []
+    }, 
+
+    {
+      "name": "Freelancer",
+      "position": "Software Engineer",
+      "url": "",
+      "startDate": "2019.07",
+      "endDate": "2021.01",
+      "summary": "Guest wi-fi platforms, Business communication solutions and management platforms.",
+      "highlights": []
     }
+
+    
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Catania, Sicily, Italy",
+      "url": "https://unict.it",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2023-08-01",
+      "endDate": "",
       "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "courses": []
+    }, 
+
+    {
+      "institution": "University of Catania, Sicily, Italy",
+      "url": "https://unict.it",
+      "area": "Computer Science",
+      "studyType": "Master's degree",
+      "startDate": "2021-10-01",
+      "endDate": "2023-04-27",
+      "score": "110/110 cum Laude",
+      "courses": []
+    }, 
+
+    {
+      "institution": "University of Catania, Sicily, Italy",
+      "url": "https://unict.it",
+      "area": "Computer Science",
+      "studyType": "Bachelor's degree",
+      "startDate": "2018-10-01",
+      "endDate": "2021-07-30",
+      "score": "110/110 cum Laude",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Archimede Award - XIX edition",
+      "date": "2023-07-28",
+      "awarder": "University of Catania",
+      "summary": "The Archimedes Award, named in honor of the illustrious Sicilian scientist, is awarded annually (since 2005) by the Computer Science Courses, affiliated with the Department of Mathematics and Computer Science, to newly graduated students in Computer Science at the Bachelor's and Master's level from the University of Catania. The award is given to those who have achieved outstanding results during their academic career and in their final thesis work."
     }
   ],
   "certificates": [],
@@ -63,7 +108,7 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Italian",
       "fluency": "Native speaker"
     },
     {
