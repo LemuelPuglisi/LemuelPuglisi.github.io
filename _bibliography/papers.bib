@@ -14,3 +14,15 @@
    poster={deepbrainprint-poster.pdf},
    selected={true},
 }
+
+@inproceedings{ravi2023efficient,
+   title={An efficient semi-supervised quality control system trained using physics-based MRI-artefact generators and adversarial training}, 
+   author={Daniele Ravi and Frederik Barkhof and Daniel C. Alexander and Lemuel Puglisi and Geoffrey JM Parker and Arman Eshaghi},
+   abstract={Large medical imaging data sets are becoming increasingly available, but ensuring sample quality without significant artefacts is challenging. Existing methods for identifying imperfections in medical imaging rely on data-intensive approaches, compounded by a scarcity of artefact-rich scans for training machine learning models in clinical research. To tackle this problem, we propose a framework with four main components: 1) artefact generators inspired by magnetic resonance physics to corrupt brain MRI scans and augment a training dataset, 2) abstract and engineered features to represent images compactly, 3) a feature selection process depending on the artefact class to improve classification, and 4) SVM classifiers to identify artefacts. Our contributions are threefold: first, physics-based artefact generators produce synthetic brain MRI scans with controlled artefacts for data augmentation. This will avoid the labour-intensive collection and labelling process of scans with rare artefacts. Second, we propose a pool of abstract and engineered image features to identify 9 different artefacts for structural MRI. Finally, we use an artefact-based feature selection block that, for each class of artefacts, finds the set of features providing the best classification performance. We performed validation experiments on a large data set of scans with artificially-generated artefacts, and in a multiple sclerosis clinical trial where real artefacts were identified by experts, showing that the proposed pipeline outperforms traditional methods. In particular, our data augmentation increases performance by up to 12.5 percentage points on accuracy, precision, and recall. The computational efficiency of our pipeline enables potential real-time deployment, promising high-throughput clinical applications through automated image-processing pipelines driven by quality control systems.},
+   booktitle={Medical Image Analysis},
+   year={2023},
+
+   abbr={MEDIA},
+   pdf={https://arxiv.org/pdf/2206.03359.pdf},
+   selected={false},
+}
