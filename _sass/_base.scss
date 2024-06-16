@@ -678,6 +678,10 @@ footer.sticky-bottom {
         }
       }
 
+      .honor {
+        color: var(--global-theme-color);      
+        font-weight: bolder;
+      }      
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
