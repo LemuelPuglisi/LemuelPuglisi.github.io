@@ -1,12 +1,26 @@
 ---
 ---
 
+@inproceedings{puglisi2025brain,
+   author    = {Puglisi, Lemuel and Alexander, Daniel C and Ravì, Daniele},
+   title     = {Brain Latent Progression: Individual-based Spatiotemporal Disease Progression on 3D Brain MRIs via Latent Diffusion},
+   booktitle = {Arxiv (preprint)},
+   year      = {2025},
+   selected  = {true},
+   comment   = {Arxiv (preprint)},
+   preview   = {brlp-plot-2.gif},
+   pdf       = {https://arxiv.org/pdf/2502.08560},
+   code      = {https://github.com/LemuelPuglisi/BrLP},
+   abstract  = {The growing availability of longitudinal Magnetic Resonance Imaging (MRI) datasets has facilitated Artificial Intelligence (AI)-driven modeling of disease progression, making it possible to predict future medical scans for individual patients. However, despite significant advancements in AI, current methods continue to face challenges including achieving patient-specific individualization, ensuring spatiotemporal consistency, efficiently utilizing longitudinal data, and managing the substantial memory demands of 3D scans. To address these challenges, we propose Brain Latent Progression (BrLP), a novel spatiotemporal model designed to predict individual-level disease progression in 3D brain MRIs. The key contributions in BrLP are fourfold: (i) it operates in a small latent space, mitigating the computational challenges posed by high-dimensional imaging data; (ii) it explicitly integrates subject metadata to enhance the individualization of predictions; (iii) it incorporates prior knowledge of disease dynamics through an auxiliary model, facilitating the integration of longitudinal data; and (iv) it introduces the Latent Average Stabilization (LAS) algorithm, which (a) enforces spatiotemporal consistency in the predicted progression at inference time and (b) allows us to derive a measure of the uncertainty for the prediction. We train and evaluate BrLP on 11,730 T1-weighted (T1w) brain MRIs from 2,805 subjects and validate its generalizability on an external test set comprising 2,257 MRIs from 962 subjects. Our experiments compare BrLP-generated MRI scans with real follow-up MRIs, demonstrating state-of-the-art accuracy compared to existing methods. The code is publicly available at: https://github.com/LemuelPuglisi/BrLP.},
+
+}
+
 @inproceedings{puglisi2024synthba,
    author    = {Puglisi, Lemuel and Rondinella, Alessia and De Meo, Linda and Guarnera, Francesco and Battiato, Sebastiano and Ravì, Daniele},
    title     = {SynthBA: Reliable Brain Age Estimation Across Multiple MRI Sequences and Resolutions},
    booktitle = {IEEE Metrology for eXtended Reality, Artificial Intelligence and Neural Engineering},
    year      = {2024},
-   selected  = {false},
+   selected  = {true},
    comment   = {MetroXRAINE 2024},
    preview   = {synthba-plot.png},
    pdf       = {https://arxiv.org/pdf/2406.00365},

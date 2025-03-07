@@ -19,6 +19,15 @@
   },
   "work": [
     {
+      "name": "University College London",
+      "position": "Visiting Researcher",
+      "url": "https://manifold-lab.netlify.app/",
+      "startDate": "2025.02",
+      "endDate": "2025.08",
+      "summary": "Visiting research period at the MANIFOLD Lab, supervised by Prof. James Cole.",
+      "highlights": []
+    }, 
+    {
       "name": "Queen Square Analytics",
       "position": "Imaging Research Scientist",
       "url": "queensquareanalytics.com",
