@@ -1,13 +1,25 @@
 ---
 ---
 
+@inproceedings{sargood2025cocolit,
+   author    = {Sargood<sup>†</sup>, Alec and Puglisi<sup>†</sup>, Lemuel and Cole, James H and Oxtoby, Neil P and Ravì, Daniele and Alexander, Daniel C},
+   title     = {CoCoLIT: ControlNet-Conditioned Latent Image Translation for MRI to Amyloid PET Synthesis},
+   booktitle = {Arxiv},
+   year      = {2025},
+   selected  = {true},
+   preview   = {CoCoLIT-preview.gif},
+   pdf       = {https://arxiv.org/pdf/2508.01292},
+   code      = {https://github.com/brAIn-science/CoCoLIT},
+   abstract  = {Synthesizing amyloid PET scans from the more widely available and accessible structural MRI modality offers a promising, cost-effective approach for large-scale Alzheimer's Disease (AD) screening. This is motivated by evidence that, while MRI does not directly detect amyloid pathology, it may nonetheless encode information correlated with amyloid deposition that can be uncovered through advanced modeling. However, the high dimensionality and structural complexity of 3D neuroimaging data pose significant challenges for existing MRI-to-PET translation methods. Modeling the cross-modality relationship in a lower-dimensional latent space can simplify the learning task and enable more effective translation. As such, we present CoCoLIT (ControlNet-Conditioned Latent Image Translation), a diffusion-based latent generative framework that incorporates three main innovations: (1) a novel Weighted Image Space Loss (WISL) that improves latent representation learning and synthesis quality; (2) a theoretical and empirical analysis of Latent Average Stabilization (LAS), an existing technique used in similar generative models to enhance inference consistency; and (3) the introduction of ControlNet-based conditioning for MRI-to-PET translation. We evaluate CoCoLIT's performance on publicly available datasets and find that our model significantly outperforms state-of-the-art methods on both image-based and amyloid-related metrics. Notably, in amyloid-positivity classification, CoCoLIT outperforms the second-best method with improvements of +10.5\% on the internal dataset and +23.7\% on the external dataset.},
+   honor     = {<sup>†</sup> Joint first authorship}
+}
+
 @inproceedings{puglisi2025brain,
    author    = {Puglisi, Lemuel and Alexander, Daniel C and Ravì, Daniele},
    title     = {Brain Latent Progression: Individual-based Spatiotemporal Disease Progression on 3D Brain MRIs via Latent Diffusion},
    booktitle = {Medical Image Analysis},
    year      = {2025},
    selected  = {true},
-   comment   = {Arxiv (preprint)},
    preview   = {brlp-plot-2.gif},
    pdf       = {https://www.sciencedirect.com/science/article/pii/S1361841525002816},
    code      = {https://github.com/LemuelPuglisi/BrLP},
