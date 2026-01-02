@@ -1,5 +1,16 @@
 ---
 ---
+@inproceedings{willard2025combined,
+   author    = {Willard<sup>†</sup>, Charles and Puglisi<sup>†</sup>, Lemuel and Ravi, Daniele and Dmitrieva, Mariia and Mattiesing, Rozemarijn M and Barkhof, Frederik and Alexander, Daniel C and Harlow, Danielle E and Piani-Meier, Daniela and Eshaghi, Arman},
+   title     = {Combined magnetic resonance imaging and serum analysis reveals distinct multiple sclerosis types},
+   booktitle = {Brain},
+   year      = {2025},
+   selected  = {true},
+   preview   = {brain2025.gif},
+   pdf       = {https://academic.oup.com/brain/article/148/12/4578/8321558},
+   abstract  = {Multiple sclerosis (MS) is a highly heterogeneous disease in its clinical manifestation and progression. Predicting individual disease courses is key for aligning treatments with underlying pathobiology. We developed an unsupervised machine learning model integrating MRI-derived measures with serum neurofilament light chain (sNfL) levels to identify biologically informed MS subtypes and stages. Using a training cohort of patients with relapsing–remitting and secondary progressive MS (n = 189), with validation on a newly diagnosed population (n = 445), we discovered two distinct subtypes defined by the timing of sNfL elevation and MRI abnormalities (early- and late-sNfL types). In comparison to MRI-only models, incorporating sNfL with MRI improved correlations of data-derived stages with the Expanded Disability Status Scale in the training (Spearman’s ρ = 0.420 versus MRI-only ρ = 0.231, P = 0.001) and external test sets (ρ = 0.163 for MRI–sNfL, versus ρ = 0.067 for MRI-only). The early-sNfL subtype showed elevated sNfL, corpus callosum injury and early lesion accrual, reflecting more active inflammation and neurodegeneration, whereas the late-sNfL group showed early volume loss in the cortical and deep grey matter volumes, with later sNfL elevation. Cross-sectional subtyping predicted longitudinal radiological activity: the early-sNfL group showed a 144% increased risk of new lesion formation (hazard ratio = 2.44, 95% confidence interval 1.38–4.30, P < 0.005) compared with the late-sNfL group. Baseline subtyping, over time, predicted treatment effect on new lesion formation on the external test set (faster lesion accrual in early-sNfL compared with late-sNfL, P = 0.01), in addition to treatment effects on brain atrophy (early sNfL average percentage brain volume change: −0.41, late-sNfL = −0.31, P = 0.04). Integration of sNfL provides an improved framework in comparison to MRI-only subtyping of MS to stage disease progression and inform prognosis. Our model predicted treatment responsiveness in early, more active disease states. This approach offers a powerful alternative to conventional clinical phenotypes and supports future efforts to refine prognostication and guide personalized therapy in MS.},
+   honor     = {<sup>†</sup> Joint first authorship; 🌟 Featured in The Guardian.}
+}
 
 @inproceedings{sargood2025cocolit,
    author    = {Sargood<sup>†</sup>, Alec and Puglisi<sup>†</sup>, Lemuel and Cole, James H and Oxtoby, Neil P and Ravì, Daniele and Alexander, Daniel C},
@@ -11,7 +22,19 @@
    pdf       = {https://arxiv.org/pdf/2508.01292},
    code      = {https://github.com/brAIn-science/CoCoLIT},
    abstract  = {Synthesizing amyloid PET scans from the more widely available and accessible structural MRI modality offers a promising, cost-effective approach for large-scale Alzheimer's Disease (AD) screening. This is motivated by evidence that, while MRI does not directly detect amyloid pathology, it may nonetheless encode information correlated with amyloid deposition that can be uncovered through advanced modeling. However, the high dimensionality and structural complexity of 3D neuroimaging data pose significant challenges for existing MRI-to-PET translation methods. Modeling the cross-modality relationship in a lower-dimensional latent space can simplify the learning task and enable more effective translation. As such, we present CoCoLIT (ControlNet-Conditioned Latent Image Translation), a diffusion-based latent generative framework that incorporates three main innovations: (1) a novel Weighted Image Space Loss (WISL) that improves latent representation learning and synthesis quality; (2) a theoretical and empirical analysis of Latent Average Stabilization (LAS), an existing technique used in similar generative models to enhance inference consistency; and (3) the introduction of ControlNet-based conditioning for MRI-to-PET translation. We evaluate CoCoLIT's performance on publicly available datasets and find that our model significantly outperforms state-of-the-art methods on both image-based and amyloid-related metrics. Notably, in amyloid-positivity classification, CoCoLIT outperforms the second-best method with improvements of +10.5\% on the internal dataset and +23.7\% on the external dataset.},
-   honor     = {<sup>†</sup> Joint first authorship}
+   honor     = {<sup>†</sup> Joint first authorship (<17% acceptance rate over 20k+ papers)}
+}
+
+@inproceedings{scardace2025novel,
+   author    = {Sargood, Alec and Puglisi, Lemuel and Thompson, Elinor and Musolesi, Mirco and Alexander, Daniel C},
+   title     = {GenTract: Generative Global Tractography},
+   booktitle = {Arxiv Preprint},
+   year      = {2026},
+   selected  = {false},
+   preview   = {GenTract.gif},
+   pdf       = {https://arxiv.org/pdf/2511.13183},
+   abstract  = {Tractography is the process of inferring the trajectories of white-matter pathways in the brain from diffusion magnetic resonance imaging (dMRI). Local tractography methods, which construct streamlines by following local fiber orientation estimates stepwise through an image, are prone to error accumulation and high false positive rates, particularly on noisy or low-resolution data. In contrast, global methods, which attempt to optimize a collection of streamlines to maximize compatibility with underlying fiber orientation estimates, are computationally expensive. To address these challenges, we introduce GenTract, the first generative model for global tractography. We frame tractography as a generative task, learning a direct mapping from dMRI to complete, anatomically plausible streamlines. We compare both diffusion-based and flow matching paradigms and evaluate GenTract's performance against state-of-the-art baselines. Notably, GenTract achieves precision 2.1x higher than the next-best method, TractOracle. This advantage becomes even more pronounced in challenging low-resolution and noisy settings, where it outperforms the closest competitor by an order of magnitude. By producing tractograms with high precision on research-grade data while also maintaining reliability on imperfect, lower-resolution data, GenTract represents a promising solution for global tractography.},
+   honor     = {Alec Sargood's promising work on global tractography.}
 }
 
 @inproceedings{scardace2025novel,
@@ -19,7 +42,7 @@
    title     = {A Novel Metric for Detecting Memorization in Generative Models for Brain MRI Synthesis},
    booktitle = {WACV},
    year      = {2026},
-   selected  = {true},
+   selected  = {false},
    preview   = {DeepSSIM.png},
    pdf       = {https://arxiv.org/pdf/2509.16582},
    code      = {https://github.com/brAIn-science/DeepSSIM},
@@ -37,7 +60,7 @@
    pdf       = {https://www.sciencedirect.com/science/article/pii/S1361841525002816},
    code      = {https://github.com/LemuelPuglisi/BrLP},
    abstract  = {The growing availability of longitudinal Magnetic Resonance Imaging (MRI) datasets has facilitated Artificial Intelligence (AI)-driven modeling of disease progression, making it possible to predict future medical scans for individual patients. However, despite significant advancements in AI, current methods continue to face challenges including achieving patient-specific individualization, ensuring spatiotemporal consistency, efficiently utilizing longitudinal data, and managing the substantial memory demands of 3D scans. To address these challenges, we propose Brain Latent Progression (BrLP), a novel spatiotemporal model designed to predict individual-level disease progression in 3D brain MRIs. The key contributions in BrLP are fourfold: (i) it operates in a small latent space, mitigating the computational challenges posed by high-dimensional imaging data; (ii) it explicitly integrates subject metadata to enhance the individualization of predictions; (iii) it incorporates prior knowledge of disease dynamics through an auxiliary model, facilitating the integration of longitudinal data; and (iv) it introduces the Latent Average Stabilization (LAS) algorithm, which (a) enforces spatiotemporal consistency in the predicted progression at inference time and (b) allows us to derive a measure of the uncertainty for the prediction at the global and voxel level. We train and evaluate BrLP on 11,730 T1-weighted (T1w) brain MRIs from 2,805 subjects and validate its generalizability on an external test set comprising 2,257 MRIs from 962 subjects. Our experiments compare BrLP-generated MRI scans with real follow-up MRIs, demonstrating state-of-the-art accuracy compared to existing methods. The code is publicly available at: https://github.com/LemuelPuglisi/BrLP.},
-   honor     = {<i>Impact Factor = 11.8</i>}
+   honor     = {Impact Factor = 11.8; 🌟 Runner-up @ Best MedIA Paper Award}
 }
 
 @inproceedings{puglisi2024synthba,
