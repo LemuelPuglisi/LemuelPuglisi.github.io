@@ -9,10 +9,8 @@ profile:
   image: profile_picture.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Department of Mathematics</p>
-    <p>and Computer Science</p>
-    <p>Office address:</p>
-    <p>Stanza 200, I blocco</p>
+    <p>Find me either in Catania (DMI, UniCT)</p>
+    <p>or in Messina (MIFT, UniME)</p>
 
 
 news: true  # includes a list of news items
