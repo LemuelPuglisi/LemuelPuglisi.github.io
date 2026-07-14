@@ -8,9 +8,6 @@ profile:
   align: right
   image: profile_picture.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Find me either in Catania (DMI, UniCT)</p>
-    <p>or in Messina (MIFT, UniME)</p>
 
 
 news: true  # includes a list of news items
