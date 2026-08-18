@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://unict.it'>University of Catania</a>, <a href="https://www.queensquareanalytics.com/">Queen Square Analytics</a>.
-
+subtitle: PhD student in Medical Artificial Intelligence<br>Ex research intern at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-health-futures/">Microsoft Research</a> <img src='assets/img/microsoft.png' height="15em"/>
 profile:
   align: right
   image: profile_picture.jpeg
@@ -16,8 +15,26 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-*PhD student at University of Catania and Imaging Research Scientist at Queen Square Analytics.*
+### Short Bio
 
-**Short bio**. I graduated cum laude with a Bachelor's degree in Computer Science from the University of Catania in July 2021, and I have completed my Master's degree in Computer Science, specializing in data science, also with a cum laude distinction from the same institution in April 2023. I started my internship at Queen Square Analytics in September 2022 and have joined the QSA team as an imaging research scientist since March 2023. From August 2023, I have started my PhD at University of Catania on *data-driven neurodegenerative disease progression modeling*. In February 2025, I joined the [MANIFOLD lab](https://manifold-lab.netlify.app/) at UCL as a visiting researcher, under the supervision of Prof. [James Cole](https://profiles.ucl.ac.uk/32379-james-cole).
+<p style="text-align: justify;">I'm a final-year PhD student in Medical AI at the University of Catania. My research experience includes a recent research internship at <strong><a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a></strong> in the <a href="https://www.microsoft.com/en-us/research/lab/microsoft-health-futures/">Health Futures team</a>, six months as a visiting researcher at <strong>University College London</strong> (UCL, Hawkes Institute; <a href="https://manifold.cs.ucl.ac.uk/">MANIFOLD</a>), and 3.5 years as a researcher at <strong><a href="https://www.queensquareanalytics.com/about-1">Queen Square Analytics</a></strong>, a UCL spin-out.</p>
 
-My research interests center around the application of artificial intelligence (AI) to medical imaging with a focus on the study of neurodegenerative diseases, particularly Multiple Sclerosis and Alzheimer's disease.
+📣 **I’ll be on the research job market starting in Fall 2026 🍂** and am always happy to discuss interesting research opportunities.
+
+### Research Interests
+
+My research broadly focuses on AI for medical imaging and healthcare, with particular interests in:
+
+- Generative Models for Medical Imaging
+- Disease Progression and Multimodal Modeling
+- Computational Biomarkers and Clinical Trial Modeling
+- Adaptive MRI Acquisition
+
+### Research Highlights
+Selected research highlights from the past ~3 years:
+
+- 🧠 **Spatiotemporal Disease Progression:** Developed [Brain Latent Progression (BrLP)](https://github.com/LemuelPuglisi/BrLP) for individualized progression modeling from longitudinal 3D MRI. Presented as an **oral at MICCAI 2024**, with the journal extension published in *Medical Image Analysis* and selected as [runner-up for the MedIA Best Paper Award](https://miccai.org/conference-awards/medical-image-analysis-best-paper-award/).
+
+- 🧬 **Disease Subtyping and Clinical Biomarkers:** Conducted research at Queen Square Analytics as part of a multi-year program with major pharmaceutical partners, culminating in a jointly first-authored [Brain study](https://academic.oup.com/brain/article/148/12/4578/8321558) that combined MRI and sNfL to identify **two distinct multiple sclerosis subtypes**. The work received international media attention, including coverage in [The Guardian](https://www.theguardian.com/society/2025/dec/30/two-new-subtypes-of-ms-found-in-exciting-breakthrough) and the [MS Society](https://www.mssociety.org.uk/research/latest-research/latest-research-news-and-blogs/researchers-use-ai-describe-two-biological-subtypes-ms).
+
+- 🎨 **Generative Medical Image Translation:** Jointly first-authored [CoCoLIT](https://ojs.aaai.org/index.php/AAAI/issue/view/692) (**AAAI 2026**), co-authored [GenTract](https://lemuelpuglisi.github.io/publications/) (**CVPR 2026, highlight**), and co-led work on benchmarking generative models for medical image translation.
